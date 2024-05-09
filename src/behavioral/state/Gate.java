@@ -23,5 +23,4 @@ public class Gate {
   void paidFail(){
     currentGateState.paidFail();
   }
-
 }

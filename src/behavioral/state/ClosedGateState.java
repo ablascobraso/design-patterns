@@ -17,8 +17,6 @@ public class ClosedGateState implements GateState {
   public void paidOk() {
     System.out.println("Paid OK..");
     gate.changeState(new OpenGateState(gate));
-
-
   }
 
   @Override
